@@ -1,12 +1,12 @@
 img {
   width: 30%;
   height: 30%;
+  margin: 5px;
 }
 .chef {
   /*display: block;
   margin-left: auto;
   margin-right: auto;*/
-  
   width: 20%;
   height: 30%;
 }
@@ -14,28 +14,30 @@ img {
   width: 10%;
   height: 10%;
 }
- h2,h3,p,li{
+ p,li{
   font-family: sans-serif;
+  line-height: 1.5;
+}
+p {
+  margin: 5px;
+  padding: 2px;
 }
 
 h1{
   color: #422f91;
   font-family: sans;
   font-weight: bold;
+  margin: 3px;
 }
 
 h2{
   border-bottom: solid 1px black;
+  font-family: sans;
+  margin: 3px
   ;
 }
   
 
-
-p{
-  line-height: 1.5;
-  
-  
-}
 
 footer {
   font-size: 1em;
